@@ -233,9 +233,9 @@ a {
 }
 
 .courses-list {
+  gap: 8px;
   display: flex;
-  gap: 0.5rem;
-  justify-content: center;
+  justify-content: space-between;
   position: relative;
 }
 
@@ -257,9 +257,8 @@ a {
   width: 229px;
   display: flex;
   flex-direction: column;
-  align-items: stretch;
   justify-content: flex-end;
-  gap: 0.52rem;
+  gap: 8px;
 }
 
 .course-card {
@@ -298,7 +297,7 @@ a {
 
 .card-button img {
   height: 36px;
-  width: 36px;
+  width: auto;
 }
 
 .card-text-wrapper {
@@ -397,7 +396,31 @@ a {
 
 .card-7 .item {
   width: 56px;
-  height: 40px;
+  height: auto;
+}
+
+.courses-list-mobile {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.login-wrapper-mobile {
+  gap: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.course-card-row {
+  display: flex;
+  align-items: flex-end;
+  gap: 8px;
+}
+
+.course-card-last-row {
+  align-items: stretch;
 }
 
 /* Features Section */
@@ -409,17 +432,21 @@ a {
 
 .features h4 {
   margin: 30px auto 10px auto;
-  max-width: 750px;
+  max-width: 725px;
   text-align: center;
 }
 
 .features-wrapper {
   display: flex;
-  align-items: flex-end;
 }
 
 .features-wrapper img {
-  height: 670px;
+  width: 45%;
+  height: auto;
+}
+
+.features-title {
+  padding: 0 36px;
 }
 
 .features-list-container {
@@ -427,12 +454,11 @@ a {
   flex-direction: column;
   align-items: flex-start;
   gap: 60px;
-  padding: 60px 0 160px 0;
+  padding: 60px 16px 40px 16px;
 }
 
 .feature-list {
   display: flex;
-  flex-wrap: wrap;
   gap: 60px;
 }
 
@@ -469,7 +495,7 @@ a {
 
 /* Trust Section */
 .trust {
-  padding: 100px 0 0 0;
+  padding: 100px 16px 0 16px;
   background-color: #fff;
 }
 
@@ -502,6 +528,13 @@ a {
   display: flex;
   flex-direction: column;
   gap: 52px;
+}
+
+.trust-stats-list-mobile {
+  display: flex;
+  flex-direction: column;
+  gap: 52px;
+  margin-top: 40px;
 }
 
 .trust-stats {
@@ -537,10 +570,8 @@ a {
 
 /* Media Section */
 .media {
-  padding: 70px 0 90px 0;
+  padding: 70px 16px 90px 16px;
   background-color: #fff;
-  width: 1176px;
-  margin: 0 auto;
 }
 
 .media h3 {
@@ -556,7 +587,6 @@ a {
 
 .media-card-list {
   display: flex;
-  flex-wrap: wrap;
   gap: 24px;
 }
 
@@ -569,7 +599,7 @@ a {
 
 .media-card img {
   height: 292px;
-  width: 200px;
+  width: auto;
 }
 
 .media-card-1 {
@@ -605,7 +635,6 @@ a {
   font-size: 21px;
   font-weight: 500;
   line-height: 1.48;
-  width: 250px;
 }
 
 .media-card-left img {
@@ -625,14 +654,19 @@ a {
   margin: 10px 0 60px 0;
 }
 
-.testimonial-cards {
+.testimonial-cards-scroller {
   margin-top: 60px;
-  display: flex;
-  gap: 6px;
   overflow-x: auto;
 }
 
+.testimonial-cards {
+  padding: 0 24px;
+  display: flex;
+  gap: 8px;
+}
+
 .testimonial {
+  flex-shrink: 0;
   padding: 72px 80px 60px 40px;
   border-radius: 29px;
   width: 637px;
@@ -723,7 +757,7 @@ a {
 
 /* Partners */
 .partners {
-  padding: 90px 0;
+  padding: 90px 16px;
   background-color: #fff;
   text-align: center;
 }
@@ -741,8 +775,10 @@ a {
 
 .partner-logos {
   margin-top: 50px;
+  flex-wrap: wrap;
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 42px;
 }
 
@@ -762,7 +798,7 @@ a {
 }
 
 .partner-bar-green {
-  width: 228px;
+  width: 30%;
   height: 2px;
   background-color: #7db131;
 }
@@ -774,7 +810,7 @@ a {
 }
 
 .partner-banner img {
-  width: 1176px;
+  width: 100%;
   height: auto;
 }
 
@@ -796,17 +832,20 @@ a {
 }
 
 .partner-banner-content .description {
-  font-size: 15p;
+  font-size: 15px;
   color: #b2bbb1;
   margin: 10px 0 20px 0;
 }
 
+.partner-banner-content a img {
+  height: 14px;
+  width: 14px;
+}
+
 /* News */
 .news {
-  padding: 0 0 70px 0;
+  padding: 0 16px 70px 16px;
   background-color: #fff;
-  width: 1176px;
-  margin: 0 auto;
 }
 
 .news-bar {
@@ -876,8 +915,9 @@ a {
 }
 
 .ambassador img {
-  width: 960px;
-  height: 630px;
+  width: 60%;
+  max-width: 960px;
+  height: auto;
 }
 
 .ambassador-content-wrapper {
@@ -933,13 +973,13 @@ a {
 
 /* Footer */
 footer {
-  padding-top: 52px;
+  padding: 20px 16px 0 16px;
   background-color: #fff;
-  width: 1176px;
-  margin: 0 auto;
 }
 
 .footer-top {
+  padding-top: 30px;
+  border-top: 1px solid #e6e6e6;
   margin: 32px 0;
 }
 
@@ -986,6 +1026,13 @@ footer {
   gap: 2rem;
 }
 
+.footer-links-mobile {
+  display: flex;
+  padding: 16px 0 20px 0;
+  border-top: 1px solid #e6e6e6;
+  justify-content: space-between;
+}
+
 .footer-links a {
   display: block;
   margin-bottom: 0.25rem;
@@ -1001,16 +1048,77 @@ footer {
   margin: 24px 0;
 }
 
-@media (min-width: 1376px) {
-}
-
-@media (max-width: 768px) {
+@media (max-width: 1376px) {
   .hero-desktop {
     display: none !important;
   }
 
   .hero-mobile {
     display: block !important;
+  }
+
+  .features-wrapper {
+    flex-direction: column;
+  }
+
+  .features-wrapper img {
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  .feature-list {
+    flex-wrap: nowrap !important;
+    gap: 16px !important;
+    justify-content: space-between;
+  }
+
+  .features-list-item {
+    width: 50% !important;
+    height: auto !important;
+  }
+
+  .ambassador {
+    flex-direction: column;
+  }
+
+  .ambassador img {
+    width: 100%;
+    height: auto;
+  }
+
+  .ambassador-content-wrapper {
+    position: static;
+    padding: 36px 20px;
+  }
+
+  .ambassador-content {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+@media (min-width: 1376px) {
+  .hero-desktop {
+    display: block !important;
+  }
+
+  .hero-mobile {
+    display: none !important;
+  }
+}
+
+@media (max-width: 768px) {
+  h2 {
+    font-size: 28px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  .navbar img {
+    height: 26px;
+    width: auto;
   }
 
   .hero-content h1 {
@@ -1025,14 +1133,304 @@ footer {
   .hero-content a {
     font-size: 14px;
   }
-}
 
-@media (min-width: 769px) {
-  .hero-desktop {
+  .courses {
+    padding: 40px 16px 50px 16px;
+  }
+
+  .courses-list {
+    display: none !important;
+  }
+
+  .courses-list-mobile {
+    display: flex !important;
+  }
+
+  .course-card-col {
+    width: 50% !important;
+  }
+
+  .course-card {
+    width: 50% !important;
+    border-radius: 24px;
+  }
+
+  .card-text-wrapper {
+    left: 16px !important;
+    right: 16px !important;
+  }
+
+  .card-2 {
+    width: 100% !important;
+    height: 50% !important;
+    font-size: 22px !important;
+    padding: 16px 24px !important;
+  }
+
+  .card-7 {
+    width: 100% !important;
+    height: 50% !important;
+    font-size: 20px !important;
+    padding: 8px 16px !important;
+  }
+
+  .course-card .item {
+    height: auto !important;
+    width: 32px !important;
+  }
+
+  .card-text-left {
+    font: 22px;
+  }
+
+  .card-text-right {
+    font-size: 68px;
+  }
+
+  .card-button {
+    font-size: 14px;
+  }
+
+  .card-button img {
+    height: 28px;
+    width: auto;
+  }
+
+  .features {
+    padding: 60px 0 0 0;
+  }
+
+  .features h4 {
+    margin: 45px auto 30px auto;
+  }
+
+  .trust-stats-list {
+    display: none !important;
+  }
+
+  .trust-stats-list-mobile {
+    display: flex !important;
+  }
+
+  .lp-compacted {
+    width: 100% !important;
+  }
+
+  .trust-stat {
+    width: 50% !important;
+  }
+
+  .trust-stat img {
+    height: 52px !important;
+    width: 52px !important;
+  }
+
+  .media-card-list {
+    flex-direction: column !important;
+  }
+
+  .media-card {
+    border-radius: 18px;
+  }
+
+  .media-card img {
+    height: 180px;
+    width: auto;
+  }
+
+  .media-card-left {
+    padding: 25px 20px 20px 20px !important;
+  }
+
+  .media-card-text {
+    font-size: 16px;
+  }
+
+  .media-card-left img {
+    width: auto;
+    height: 30px;
+  }
+
+  .testimonials {
+    margin: 0;
+    border-radius: 0;
+    padding: 46px 0 60px 0;
+  }
+
+  .testimonials h3 {
+    margin: 0 16px;
+  }
+
+  .testimonials h4 {
+    margin: 16px 16px;
+  }
+
+  .testimonial-cards {
+    margin-top: 40px;
+  }
+
+  .testimonial {
+    padding: 20px 24px;
+    flex-direction: column;
+    gap: 30px;
+    width: 320px !important;
+  }
+
+  .t-reviewer img {
+    width: 36px;
+    height: 36px;
+  }
+
+  .t-reviewer-name {
+    font-size: 16px;
+  }
+
+  .t-review-title {
+    font-size: 14px;
+  }
+
+  .testimonial-quote-icon img {
+    width: 24px;
+    height: auto;
+  }
+
+  .partners-header p {
+    font-size: 20px;
+  }
+
+  .partner-logos {
+    gap: 30px;
+  }
+
+  .partner-logos img {
+    height: 22px;
+    width: auto;
+  }
+
+  .partner-bar {
+    width: 100%;
+  }
+
+  .contact-img {
+    display: none !important;
+  }
+
+  .contact-img-mobile {
     display: block !important;
   }
 
-  .hero-mobile {
+  .partner-banner-content {
+    left: 20px;
+    right: 20px;
+    top: 30px;
+    bottom: 30px;
+  }
+
+  .partner-banner-content .title {
+    font-size: 20px;
+    margin-left: 70px;
+    font-weight: 500;
+    line-height: 1.3;
+  }
+
+  .partner-banner-content .description {
+    font-size: 14px;
+    line-height: 1.43;
+  }
+
+  .news-wrapper {
+    flex-direction: column !important;
+    gap: 0 !important;
+    margin-top: 5px;
+  }
+
+  .news-item {
+    width: auto !important;
+    flex-direction: row !important;
+    padding: 20px 0;
+    gap: 15px;
+    border-bottom: 1px solid #e6e6e6 !important;
+  }
+
+  .news-item img {
+    height: 85px !important;
+    width: 85px !important;
+    object-fit: cover !important;
+    border-radius: 12px;
+  }
+
+  .news-item .topic {
+    margin: 5px 0 5px 0;
+  }
+
+  .news-item .title {
+    font-size: 18px !important;
+  }
+
+  .news-item .description {
+    display: none !important;
+  }
+
+  .news-show-more {
+    position: static !important;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .news-bar {
+    display: none !important;
+  }
+
+  .tak-12 img {
+    height: 44px;
+    width: auto;
+    margin: 10px 0 20px 0;
+  }
+
+  .footer-top {
+    border-top: none !important;
+  }
+
+  .footer-links {
+    display: none !important;
+  }
+
+  .footer-links-mobile {
+    display: flex !important;
+  }
+}
+
+@media (min-width: 769px) {
+  .courses-list {
+    display: flex !important;
+  }
+
+  .courses-list-mobile {
+    display: none !important;
+  }
+
+  .trust-stats-list {
+    display: flex !important;
+  }
+
+  .trust-stats-list-mobile {
+    display: none !important;
+  }
+
+  .contact-img {
+    display: block !important;
+  }
+
+  .contact-img-mobile {
+    display: none !important;
+  }
+
+  .footer-links {
+    display: flex !important;
+  }
+
+  .footer-links-mobile {
     display: none !important;
   }
 }

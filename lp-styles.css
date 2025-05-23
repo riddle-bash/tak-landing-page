@@ -660,7 +660,6 @@ a {
 }
 
 .testimonial-cards {
-  padding: 0 24px;
   display: flex;
   gap: 8px;
 }
@@ -1292,6 +1291,10 @@ footer {
   .testimonial-quote-icon img {
     width: 24px;
     height: auto;
+  }
+
+  .testimonial-cards {
+    padding: 0 24px;
   }
 
   .partners-header p {

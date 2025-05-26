@@ -1,7 +1,7 @@
-import re
+import os
 from bs4 import BeautifulSoup
 
-def save_chunk(element, prefix="section"):
+def save_chunk(element):
     class_attr = element.get("class", [])
     if not class_attr:
         return
@@ -9,7 +9,9 @@ def save_chunk(element, prefix="section"):
     for class_name in class_attr:
         if class_name.startswith("lp-"):
             chunk_name = class_name.replace("lp-", "")
-            filename = f"{chunk_name}.html"
+            folder = "chunks"
+            os.makedirs(folder, exist_ok=True)  # Create folder if needed
+            filename = os.path.join(folder, f"{chunk_name}.html")
             with open(filename, "w", encoding="utf-8") as f:
                 f.write(str(element))
             print(f"✅ Saved: {filename}")

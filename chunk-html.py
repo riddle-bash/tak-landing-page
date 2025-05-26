@@ -16,7 +16,7 @@ def save_chunk(element, prefix="section"):
             break
 
 # === Load original HTML ===
-with open("index.html", "r", encoding="utf-8") as f:
+with open("landing-page.html", "r", encoding="utf-8") as f:
     soup = BeautifulSoup(f, "html.parser")
 
 body = soup.body

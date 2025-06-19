@@ -117,7 +117,7 @@
 }
 
 .pl-compacted {
-  width: 1176px;
+  max-width: 1176px;
   margin: 0 auto;
 }
 
@@ -223,6 +223,8 @@
 }
 
 .pl-benefits-content-left {
+  width: 465px;
+  height: 256px;
   flex: 0.8;
 }
 
@@ -282,6 +284,7 @@
   border-radius: 999px;
   transition: background-color 0.3s ease;
   text-decoration: none;
+  text-align: center;
 }
 
 .pl-footer-link:hover {
@@ -577,4 +580,104 @@
   color: #7e6bc7;
   font-size: 20px;
   text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .pl-template h2 {
+    font-size: 28px;
+  }
+
+  .pl-compacted {
+    width: 100% !important;
+  }
+
+  .pl-hero h1 {
+    font-size: 28px;
+    margin: 12px 0;
+  }
+
+  .pl-hero p {
+    font-size: 18px;
+  }
+
+  .pl-hero img {
+    width: 100%;
+    height: auto;
+  }
+
+  .pl-programs h2 {
+    font-size: 36px;
+  }
+
+  .pl-programs-subject-list {
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .pl-benefits-header p {
+    font-size: 20px;
+  }
+
+  .pl-benefits-content {
+    flex-direction: column;
+  }
+
+  .pl-benefits-content-left {
+    flex: 1;
+    margin-bottom: 20px;
+    height: auto;
+    width: 100%;
+  }
+
+  .pl-benefits-content-right {
+    flex: 1;
+  }
+
+  .pl-news-list {
+    flex-direction: column;
+  }
+
+  .pl-news-item {
+    margin: 0;
+  }
+
+  .pl-plans-list {
+    flex-direction: column;
+  }
+
+  .pl-plans-item {
+    margin: 0;
+  }
+
+  .pl-testimonials-list {
+    flex-direction: column;
+  }
+
+  .pl-testimonials-item {
+    margin: 0;
+  }
+
+  .pl-enrollment-list {
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .pl-enrollment-item h3 {
+    font-size: 28px;
+  }
+
+  .pl-enrollment-item p {
+    font-size: 18px;
+    margin: 12px 0;
+  }
+
+  .pl-enrollment-item a {
+    font-size: 18px;
+  }
+
+  .pl-footer-link {
+    font-size: 18px;
+    padding: 12px 24px;
+  }
 }

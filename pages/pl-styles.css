@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Roboto';
-  src: url('../fonts/Roboto/Roboto-Light.ttf') format('truetype');
+  src: url('../fonts/Roboto_2/Roboto-Light.ttf') format('truetype');
   font-weight: 300;
   font-style: normal;
   font-display: swap;
@@ -8,7 +8,7 @@
 
 @font-face {
   font-family: 'Roboto';
-  src: url('../fonts/Roboto/Roboto-Regular.ttf') format('truetype');
+  src: url('../fonts/Roboto_2/Roboto-Regular.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -16,7 +16,7 @@
 
 @font-face {
   font-family: 'Roboto';
-  src: url('../fonts/Roboto/Roboto-Medium.ttf') format('truetype');
+  src: url('../fonts/Roboto_2/Roboto-Medium.ttf') format('truetype');
   font-weight: 500;
   font-style: normal;
   font-display: swap;
@@ -24,7 +24,7 @@
 
 @font-face {
   font-family: 'Roboto';
-  src: url('../fonts/Roboto/Roboto-SemiBold.ttf') format('truetype');
+  src: url('../fonts/Roboto_2/Roboto-SemiBold.ttf') format('truetype');
   font-weight: 600;
   font-style: normal;
   font-display: swap;
@@ -32,7 +32,7 @@
 
 @font-face {
   font-family: 'Roboto';
-  src: url('../fonts/Roboto/Roboto-Bold.ttf') format('truetype');
+  src: url('../fonts/Roboto_2/Roboto-Bold.ttf') format('truetype');
   font-weight: 700;
   font-style: normal;
   font-display: swap;
@@ -40,7 +40,7 @@
 
 @font-face {
   font-family: 'Roboto Slab';
-  src: url('../fonts/Roboto/RobotoSlab-Light.ttf') format('truetype');
+  src: url('../fonts/Roboto_2/RobotoSlab-Light.ttf') format('truetype');
   font-weight: 300;
   font-style: normal;
   font-display: swap;
@@ -48,7 +48,7 @@
 
 @font-face {
   font-family: 'Roboto Slab';
-  src: url('../fonts/Roboto/RobotoSlab-Regular.ttf') format('truetype');
+  src: url('../fonts/Roboto_2/RobotoSlab-Regular.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -56,7 +56,7 @@
 
 @font-face {
   font-family: 'Roboto Slab';
-  src: url('../fonts/Roboto/RobotoSlab-Medium.ttf') format('truetype');
+  src: url('../fonts/Roboto_2/RobotoSlab-Medium.ttf') format('truetype');
   font-weight: 500;
   font-style: normal;
   font-display: swap;
@@ -64,7 +64,7 @@
 
 @font-face {
   font-family: 'Roboto Slab';
-  src: url('../fonts/Roboto/RobotoSlab-SemiBold.ttf') format('truetype');
+  src: url('../fonts/Roboto_2/RobotoSlab-SemiBold.ttf') format('truetype');
   font-weight: 600;
   font-style: normal;
   font-display: swap;
@@ -72,7 +72,7 @@
 
 @font-face {
   font-family: 'Roboto Slab';
-  src: url('../fonts/Roboto/RobotoSlab-Bold.ttf') format('truetype');
+  src: url('../fonts/Roboto_2/RobotoSlab-Bold.ttf') format('truetype');
   font-weight: 700;
   font-style: normal;
   font-display: swap;

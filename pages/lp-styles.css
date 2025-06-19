@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Gilroy';
-  src: url('fonts/SVN-Gilroy Light.otf') format('opentype');
+  src: url('../fonts/Gilroy/SVN-Gilroy Light.otf') format('opentype');
   font-weight: 300;
   font-style: normal;
   font-display: swap;
@@ -8,7 +8,7 @@
 
 @font-face {
   font-family: 'Gilroy';
-  src: url('fonts/SVN-Gilroy Regular.otf') format('opentype');
+  src: url('../fonts/Gilroy/SVN-Gilroy Regular.otf') format('opentype');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -16,7 +16,7 @@
 
 @font-face {
   font-family: 'Gilroy';
-  src: url('fonts/SVN-Gilroy Medium.otf') format('opentype');
+  src: url('../fonts/Gilroy/SVN-Gilroy Medium.otf') format('opentype');
   font-weight: 500;
   font-style: normal;
   font-display: swap;
@@ -24,7 +24,7 @@
 
 @font-face {
   font-family: 'Gilroy';
-  src: url('fonts/SVN-Gilroy Bold.otf') format('opentype');
+  src: url('../fonts/Gilroy/SVN-Gilroy Bold.otf') format('opentype');
   font-weight: 700;
   font-style: normal;
   font-display: swap;
@@ -34,7 +34,7 @@
   font-weight: 400;
 }
 
-body {
+.lp-template {
   font-family: 'Gilroy', sans-serif;
   font-weight: 400;
 }
@@ -46,13 +46,13 @@ body {
   padding: 0;
 }
 
-h1,
-h2,
-h3 {
+.lp-template h1,
+.lp-template h2,
+.lp-template h3 {
   font-weight: 700;
 }
 
-h2 {
+.lp-template h2 {
   font-size: 52px;
   line-height: 1.15;
   letter-spacing: -0.46px;
@@ -61,24 +61,24 @@ h2 {
   text-align: center;
 }
 
-h3 {
+.lp-template h3 {
   font-size: 36px;
   font-weight: 700;
   color: #1d1d1f;
 }
 
-h4 {
+.lp-template .h4 {
   font-family: 'Inter', sans-serif;
   font-size: 16px;
   line-height: 1.44;
   color: #606060;
 }
 
-h1 span {
+.lp-template h1 span {
   color: #00da4f;
 }
 
-a {
+.lp-template a {
   text-decoration: none;
   color: inherit;
 }
@@ -591,6 +591,7 @@ a {
 }
 
 .lp-media-card {
+  width: 50%;
   display: flex;
   justify-content: space-between;
   border-radius: 24px;
@@ -1107,11 +1108,11 @@ footer {
 }
 
 @media (max-width: 768px) {
-  h2 {
+  .lp-template h2 {
     font-size: 28px;
   }
 
-  h3 {
+  .lp-template h3 {
     font-size: 20px;
   }
 

@@ -3,22 +3,22 @@ from bs4 import BeautifulSoup
 
 def save_chunk(element):
     class_attr = element.get("class", [])
-    if not class_attr:
+    if len(class_attr) < 2:
         return
 
-    for class_name in class_attr:
-        if class_name.startswith("lp-"):
-            chunk_name = class_name.replace("lp-", "")
-            folder = "chunks"
-            os.makedirs(folder, exist_ok=True)  # Create folder if needed
-            filename = os.path.join(folder, f"{chunk_name}.html")
-            with open(filename, "w", encoding="utf-8") as f:
-                f.write(str(element))
-            print(f"✅ Saved: {filename}")
-            break
+    # Always use the second class as the chunk identifier
+    chunk_class = class_attr[1]
+    if chunk_class.startswith("pl-"):
+        chunk_name = chunk_class.replace("pl-", "")
+        folder = "chunks-price-list"
+        os.makedirs(folder, exist_ok=True)
+        filename = os.path.join(folder, f"{chunk_name}.html")
+        with open(filename, "w", encoding="utf-8") as f:
+            f.write(str(element))
+        print(f"✅ Saved: {filename}")
 
 # === Load original HTML ===
-with open("landing-page.html", "r", encoding="utf-8") as f:
+with open("./pages/price-list.html", "r", encoding="utf-8") as f:
     soup = BeautifulSoup(f, "html.parser")
 
 body = soup.body

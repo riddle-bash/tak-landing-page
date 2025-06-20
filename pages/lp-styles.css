@@ -35,8 +35,14 @@
 }
 
 .lp-template {
-  font-family: 'Gilroy', sans-serif;
+  font-family: 'Gilroy', sans-serif !important;
   font-weight: 400;
+}
+
+.lp-template a {
+  text-decoration: none;
+  color: black;
+  font-family: 'Gilroy', sans-serif;
 }
 
 /* Base styles */
@@ -46,13 +52,13 @@
   padding: 0;
 }
 
-.lp-template h1,
-.lp-template h2,
-.lp-template h3 {
-  font-weight: 700;
+.lp-template h1 {
+  margin: 0.67em 0;
+  font-family: 'Gilroy', sans-serif;
 }
-
 .lp-template h2 {
+  margin: 0.75em 0;
+  font-family: 'Gilroy', sans-serif;
   font-size: 52px;
   line-height: 1.15;
   letter-spacing: -0.46px;
@@ -60,8 +66,9 @@
   font-weight: 500;
   text-align: center;
 }
-
 .lp-template h3 {
+  margin: 0;
+  font-family: 'Gilroy', sans-serif;
   font-size: 36px;
   font-weight: 700;
   color: #1d1d1f;
@@ -80,7 +87,11 @@
 
 .lp-template a {
   text-decoration: none;
-  color: inherit;
+  color: black;
+}
+
+.lp-template p {
+  margin: 0;
 }
 
 /* Navbar */
@@ -931,7 +942,7 @@
 .lp-ambassador-content {
   display: flex;
   width: 50%;
-  padding: 90px 90px 00px 0;
+  padding: 90px 90px 0 0;
   flex-direction: column;
   align-items: flex-start;
   text-align: left;

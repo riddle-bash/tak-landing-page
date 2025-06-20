@@ -123,6 +123,10 @@
   margin: 1.12em 0;
 }
 
+.pl-template ul {
+  padding-inline-start: 40px;
+}
+
 .pl-compacted {
   max-width: 1176px;
   margin: 0 auto;

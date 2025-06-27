@@ -363,12 +363,15 @@
 
 .lp-card-2 {
   background-color: #201c24;
-  color: #add93f;
   padding: 30px 28px;
   font-size: 25px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: -0.21px;
+}
+
+.lp-card-2 a {
+  color: white;
 }
 
 .lp-card-4 .lp-card-text-wrapper {
@@ -422,6 +425,10 @@
 .lp-card-7 .lp-item {
   width: 56px;
   height: auto;
+}
+
+.lp-card-7 a {
+  color: white;
 }
 
 .lp-courses-list-mobile {

@@ -99,7 +99,7 @@
 }
 
 .pl-template {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif !important;
 }
 
 .pl-template h1 {
@@ -110,7 +110,7 @@
 }
 
 .pl-template h2 {
-  font-family: 'Roboto Slab', serif;
+  font-family: 'Roboto Slab', serif !important;
   color: #7db131;
   font-size: 48px;
   font-weight: 600;
@@ -118,7 +118,7 @@
 }
 
 .pl-template h3 {
-  font-family: 'Roboto Slab', serif;
+  font-family: 'Roboto Slab', serif !important;
   color: #101112;
   font-size: 20px;
   font-weight: 600;
@@ -151,7 +151,7 @@
 }
 
 .pl-hero-title {
-  font-family: 'Gilroy', sans-serif;
+  font-family: 'Gilroy', sans-serif !important;
   text-align: center;
   color: white;
   margin: 16px 0;

@@ -92,6 +92,12 @@
   padding: 0;
 }
 
+.pl-template * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 .pl-template {
   font-family: 'Roboto', sans-serif;
 }
@@ -915,13 +921,15 @@
   font-weight: 500;
 }
 
+@media (max-width: 1176px) {
+  .pl-compacted {
+    width: 100% !important;
+  }
+}
+
 @media (max-width: 768px) {
   .pl-template h2 {
     font-size: 28px;
-  }
-
-  .pl-compacted {
-    width: 100% !important;
   }
 
   .pl-hero h1 {

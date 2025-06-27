@@ -371,7 +371,7 @@
 }
 
 .lp-card-2 a {
-  color: white;
+  color: #add93f;
 }
 
 .lp-card-4 .lp-card-text-wrapper {
@@ -414,7 +414,6 @@
 
 .lp-card-7 {
   background-color: #014810;
-  color: #68c621;
   font-size: 22px;
   font-weight: 500;
   padding: 30px 28px;
@@ -428,7 +427,7 @@
 }
 
 .lp-card-7 a {
-  color: white;
+  color: #68c621;
 }
 
 .lp-courses-list-mobile {

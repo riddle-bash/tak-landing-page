@@ -100,6 +100,7 @@
   font-weight: 600;
   color: white;
   font-size: 54px;
+  margin: 0.67em 0;
 }
 
 .pl-template h2 {
@@ -107,6 +108,7 @@
   color: #7db131;
   font-size: 48px;
   font-weight: 600;
+  margin: 0.75em 0;
 }
 
 .pl-template h3 {
@@ -114,6 +116,15 @@
   color: #101112;
   font-size: 20px;
   font-weight: 600;
+  margin: 0.83em 0;
+}
+
+.pl-template p {
+  margin: 1.12em 0;
+}
+
+.pl-template ul {
+  padding-inline-start: 40px;
 }
 
 .pl-compacted {
@@ -174,7 +185,7 @@
 }
 
 .pl-programs-subject-list img {
-  height: 137px;
+  height: auto;
   width: 137px;
 }
 
@@ -190,7 +201,7 @@
 }
 
 .pl-programs-school-list img {
-  height: 110px;
+  height: auto;
   width: 110px;
 }
 
@@ -375,7 +386,7 @@
   font-size: 20px;
 }
 
-.pl-plans-item-price {
+.pl-plans-item .pl-plans-item-price {
   font-family: 'Roboto Slab', serif;
   font-weight: 500;
   color: #0b0b0b;
@@ -631,7 +642,7 @@
 }
 
 .pl-combo-list-item img {
-  height: 128px;
+  height: auto;
   width: 128px;
 }
 
@@ -881,7 +892,7 @@
 }
 
 .pl-plans-3-list img {
-  height: 140px;
+  height: auto;
   width: 140px;
   flex-shrink: 0;
 }

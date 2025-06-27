@@ -5,7 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TAK12 - AI Learning Platform</title>
     <link rel="stylesheet" href="lp-styles.css" />
-    <link rel="icon" href="/img/tak12.png" type="image/png" />
+    <link rel="icon" href="tak12.png" type="image/png" />
+    <script>
+      if (location.hostname === 'riddle-bash.github.io') {
+        const base = document.createElement('base')
+        base.href = '/tak-landing-page/'
+        document.head.appendChild(base)
+
+        window.addEventListener('DOMContentLoaded', () => {
+          document.querySelectorAll('img').forEach((img) => {
+            if (img.src.startsWith(location.origin + '/Upload/')) {
+              img.src = img.src.replace(location.origin + '/Upload/', 'Upload/')
+            }
+          })
+        })
+      }
+    </script>
   </head>
   <body class="lp-body">
     <header class="lp-template lp-navbar">

@@ -34,7 +34,7 @@
   font-weight: 400;
 }
 
-.lp-template {
+.lp-template * {
   font-family: 'Gilroy', sans-serif !important;
   font-weight: 400;
 }
@@ -237,7 +237,7 @@
 
 /* Courses Section */
 .lp-courses {
-  padding: 90px 0 120px 0;
+  padding: 90px 8px 120px 8px;
   background-color: #f9f9f9;
 }
 
@@ -680,7 +680,7 @@
 /* Testimonials */
 .lp-testimonials {
   margin: 0 30px;
-  padding: 90px 0 96px 0;
+  padding: 90px 8px 96px 8px;
   border-radius: 30px;
   background: linear-gradient(90deg, #e6f0fa 0%, #fff5f2 100%);
 }
@@ -949,7 +949,7 @@
 }
 
 .lp-ambassador img {
-  width: 60%;
+  width: 59%;
   max-width: 960px;
   height: auto;
 }
@@ -969,6 +969,18 @@
   flex-direction: column;
   align-items: flex-start;
   text-align: left;
+}
+
+@media (min-width: 1377px) {
+  .lp-ambassador-content {
+    padding: 90px 140px 0 0;
+  }
+}
+
+@media (min-width: 1600px) {
+  .lp-ambassador-content {
+    padding: 90px 90px 0 0;
+  }
 }
 
 .lp-ambassador-content h3 {

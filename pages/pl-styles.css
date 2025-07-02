@@ -302,7 +302,7 @@
 }
 
 .pl-footer-link:hover {
-  background-color: #7747ff;
+  background-color: #1c581f;
 }
 
 /* News */
@@ -436,8 +436,8 @@
 }
 
 .pl-plans-item-select-button:hover {
-  background-color: #7747ff;
-  border-color: #7747ff;
+  background-color: #1c581f;
+  border-color: #1c581f;
   color: white;
 }
 
@@ -464,8 +464,8 @@
 }
 
 .pl-plans-item-center .pl-plans-item-select-button:hover {
-  background-color: #7747ff;
-  border-color: #7747ff;
+  background-color: #1c581f;
+  border-color: #1c581f;
   color: white;
 }
 
@@ -852,8 +852,8 @@
 }
 
 .pl-compare-view-pro:hover {
-  background-color: #7747ff;
-  border-color: #7747ff;
+  background-color: #1c581f;
+  border-color: #1c581f;
   color: white;
 }
 

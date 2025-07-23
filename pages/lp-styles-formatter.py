@@ -2,7 +2,7 @@ import re
 
 # Set of class names treated equal to .lp-template (no space)
 equal_classes = {
-    'lp-nav', 'lp-hero', 'lp-courses', 'lp-features',
+    'lp-navbar', 'lp-hero', 'lp-courses', 'lp-features',
     'lp-trust', 'lp-media', 'lp-testimonials', 'lp-partners',
     'lp-news', 'lp-ambassador', 'lp-footer'
 }

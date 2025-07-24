@@ -1,113 +1,144 @@
-/* Inter UI font faces */
-@font-face {
-  font-family: "Inter UI";
-  src: url("../fonts/Inter_UI/Inter-UI-Regular.otf") format("opentype");
-  font-weight: 400;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Inter UI";
-  src: url("../fonts/Inter_UI/Inter-UI-Italic.otf") format("opentype");
-  font-weight: 400;
-  font-style: italic;
-}
-@font-face {
-  font-family: "Inter UI";
-  src: url("../fonts/Inter_UI/Inter-UI-Medium.otf") format("opentype");
-  font-weight: 500;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Inter UI";
-  src: url("../fonts/Inter_UI/Inter-UI-MediumItalic.otf") format("opentype");
-  font-weight: 500;
-  font-style: italic;
-}
-@font-face {
-  font-family: "Inter UI";
-  src: url("../fonts/Inter_UI/Inter-UI-SemiBold.otf") format("opentype");
-  font-weight: 600;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Inter UI";
-  src: url("../fonts/Inter_UI/Inter-UI-SemiBoldItalic.otf") format("opentype");
-  font-weight: 600;
-  font-style: italic;
-}
-@font-face {
-  font-family: "Inter UI";
-  src: url("../fonts/Inter_UI/Inter-UI-Bold.otf") format("opentype");
-  font-weight: 700;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Inter UI";
-  src: url("../fonts/Inter_UI/Inter-UI-BoldItalic.otf") format("opentype");
-  font-weight: 700;
-  font-style: italic;
-}
-
-/* Gilroy font faces */
-@font-face {
-  font-family: "Gilroy";
-  src: url("../fonts/Gilroy/SVN-Gilroy Regular.otf") format("opentype");
-  font-weight: 400;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Gilroy";
-  src: url("../fonts/Gilroy/SVN-Gilroy Italic.otf") format("opentype");
-  font-weight: 400;
-  font-style: italic;
-}
 @font-face {
   font-family: "Gilroy";
   src: url("../fonts/Gilroy/SVN-Gilroy Light.otf") format("opentype");
   font-weight: 300;
   font-style: normal;
+  font-display: swap;
 }
+
 @font-face {
   font-family: "Gilroy";
   src: url("../fonts/Gilroy/SVN-Gilroy Light-Italic.otf") format("opentype");
   font-weight: 300;
   font-style: italic;
+  font-display: swap;
 }
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy/SVN-Gilroy Regular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy/SVN-Gilroy Italic.otf") format("opentype");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
 @font-face {
   font-family: "Gilroy";
   src: url("../fonts/Gilroy/SVN-Gilroy Medium.otf") format("opentype");
   font-weight: 500;
   font-style: normal;
+  font-display: swap;
 }
+
 @font-face {
   font-family: "Gilroy";
   src: url("../fonts/Gilroy/SVN-Gilroy Medium-Italic.otf") format("opentype");
   font-weight: 500;
   font-style: italic;
+  font-display: swap;
 }
+
 @font-face {
   font-family: "Gilroy";
   src: url("../fonts/Gilroy/SVN-Gilroy SemiBold.otf") format("opentype");
   font-weight: 600;
   font-style: normal;
+  font-display: swap;
 }
+
 @font-face {
   font-family: "Gilroy";
   src: url("../fonts/Gilroy/SVN-Gilroy SemiBold-Italic.otf") format("opentype");
   font-weight: 600;
   font-style: italic;
+  font-display: swap;
 }
+
 @font-face {
   font-family: "Gilroy";
   src: url("../fonts/Gilroy/SVN-Gilroy Bold.otf") format("opentype");
   font-weight: 700;
   font-style: normal;
+  font-display: swap;
 }
 @font-face {
   font-family: "Gilroy";
   src: url("../fonts/Gilroy/SVN-Gilroy Bold-Italic.otf") format("opentype");
   font-weight: 700;
   font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter UI";
+  src: url("../fonts/Inter_UI/Inter-UI-Regular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter UI";
+  src: url("../fonts/Inter_UI/Inter-UI-Italic.otf") format("opentype");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter UI";
+  src: url("../fonts/Inter_UI/Inter-UI-Medium.otf") format("opentype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter UI";
+  src: url("../fonts/Inter_UI/Inter-UI-MediumItalic.otf") format("opentype");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter UI";
+  src: url("../fonts/Inter_UI/Inter-UI-SemiBold.otf") format("opentype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter UI";
+  src: url("../fonts/Inter_UI/Inter-UI-SemiBoldItalic.otf") format("opentype");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter UI";
+  src: url("../fonts/Inter_UI/Inter-UI-Bold.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter UI";
+  src: url("../fonts/Inter_UI/Inter-UI-BoldItalic.otf") format("opentype");
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
 }
 
 .lp-template {

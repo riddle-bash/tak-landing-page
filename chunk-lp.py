@@ -15,6 +15,7 @@ def save_chunk(element):
         filename = os.path.join(folder, f"{chunk_name}.html")
         with open(filename, "w", encoding="utf-8") as f:
             f.write(str(element))
+            f.write("\n<p></p>\n") 
         print(f"✅ Saved: {filename}")
 
 # === Load original HTML ===

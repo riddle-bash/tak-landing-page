@@ -1647,6 +1647,8 @@ footer {
   padding: 16px 24px;
   border-radius: 8px;
   gap: 4px;
+  transition: box-shadow 0.3s ease;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
 }
 
 .lp-template .lp-overview-item-1 {
@@ -1664,6 +1666,10 @@ footer {
   color: #7d756d;
 }
 
+.lp-template .lp-overview-item:hover {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.15);
+}
+
 .lp-template .lp-overview-item-left {
   display: flex;
   flex-direction: column;
@@ -1674,7 +1680,7 @@ footer {
 .lp-template .lp-overview-item-title {
   display: flex;
   align-items: center;
-  gap: 16px;
+  gap: 12px;
 }
 
 .lp-template .lp-overview-item-title-text {
@@ -1683,7 +1689,7 @@ footer {
 }
 
 .lp-template .lp-overview-item-title-icon {
-  width: 32px;
+  width: 16px;
   height: auto;
 }
 

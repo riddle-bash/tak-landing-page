@@ -1671,34 +1671,52 @@ footer {
 }
 
 .lp-template .lp-overview-item {
-  width: 33.33%;
+  flex: 1;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 16px 24px;
-  border-radius: 8px;
+  border-radius: 10px;
   gap: 4px;
-  transition: box-shadow 0.3s ease;
+  transition: box-shadow 0.4s ease , transform 0.4s ease;
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
 }
 
+@media (min-width: 769px) and (max-width: 1200px) {
+  .lp-template .lp-overview-list {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .lp-template .lp-overview-item {
+    width: 47%;
+    flex: unset;
+  }
+}
+
 .lp-template .lp-overview-item-1 {
-  background-color: #e5f1f9;
-  color: #596976;
+  background-color: #c4e9ec;
+  color: var(--primary-2);
 }
 
 .lp-template .lp-overview-item-2 {
-  background-color: #e3f2e7;
-  color: #678c71;
+  background-color: #e5f6e3;
+  color: var(--primary-2);
 }
 
 .lp-template .lp-overview-item-3 {
-  background-color: #ffefe5;
-  color: #7d756d;
+  background-color: #add93f;
+  color: var(--primary-2);
+}
+
+.lp-template .lp-overview-item-4 {
+  background-color: #ceedca;
+  color: var(--primary-2);
 }
 
 .lp-template .lp-overview-item:hover {
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.15);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.15);
+  transform: scale(1.03);
 }
 
 .lp-template .lp-overview-item-left {
@@ -1706,11 +1724,12 @@ footer {
   flex-direction: column;
   justify-content: space-between;
   gap: 16px;
+  height: 100%;
 }
 
 .lp-template .lp-overview-item-title {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   gap: 12px;
 }
 
@@ -1722,6 +1741,7 @@ footer {
 .lp-template .lp-overview-item-title-icon {
   width: 16px;
   height: auto;
+  margin-top: 4px;
 }
 
 .lp-template .lp-overview-item-stat {
@@ -1774,10 +1794,6 @@ footer {
   display: flex;
   align-items: start;
   gap: 16px;
-}
-
-.lp-template .lp-quiz-item:hover {
-  background-color: #e5f2e3;
 }
 
 .lp-template .lp-quiz-list-container > .lp-quiz-item:first-child {

@@ -1,0 +1,244 @@
+@font-face {
+  font-family: "Inter UI";
+  src: url("../fonts/Inter_UI/Inter-UI-Regular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter UI";
+  src: url("../fonts/Inter_UI/Inter-UI-Italic.otf") format("opentype");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter UI";
+  src: url("../fonts/Inter_UI/Inter-UI-Medium.otf") format("opentype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter UI";
+  src: url("../fonts/Inter_UI/Inter-UI-MediumItalic.otf") format("opentype");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter UI";
+  src: url("../fonts/Inter_UI/Inter-UI-SemiBold.otf") format("opentype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter UI";
+  src: url("../fonts/Inter_UI/Inter-UI-SemiBoldItalic.otf") format("opentype");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter UI";
+  src: url("../fonts/Inter_UI/Inter-UI-Bold.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter UI";
+  src: url("../fonts/Inter_UI/Inter-UI-BoldItalic.otf") format("opentype");
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+section.eq-template {
+  font-family: "Inter UI", sans-serif !important;
+  font-weight: 400;
+}
+
+.eq-template {
+  --scolor-1: #7cb130;
+
+  --primary-1: #ffffff;
+  --primary-2: #1c581f;
+  --primary-3: #5fbd18;
+  --primary-4: #ffda0f;
+
+  --secondary-1: #01350c;
+  --secondary-2: #57aa19;
+  --secondary-3: #add93f;
+  --secondary-4: #ceedca;
+  --secondary-5: #28222e;
+
+  --border-200: #e5e7eb;
+  --box-blue: #348cf7;
+}
+
+.eq-template * {
+  font-size: 16px;
+}
+
+.eq-template a,
+.eq-template p {
+  line-height: 1.44;
+  margin: 0;
+  font-size: 16px;
+  color: var(--primary-3);
+  font-family: "Inter UI", sans-serif;
+}
+
+.eq-template a {
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.eq-template a:hover {
+  color: var(--primary-2);
+}
+
+.eq-template h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+  font-weight: bold;
+  line-height: normal;
+  color: var(--primary-2);
+  font-family: "Inter UI", sans-serif;
+}
+
+.eq-template h2 {
+  font-size: 1.5em;
+  margin: 0.83em 0;
+  font-weight: bold;
+  line-height: normal;
+  color: var(--primary-2);
+  font-family: "Inter UI", sans-serif;
+}
+
+.eq-template h3 {
+  font-size: 1.17em;
+  margin: 1em 0;
+  font-weight: bold;
+  line-height: normal;
+  color: var(--primary-3);
+  font-family: "Inter UI", sans-serif;
+}
+
+.eq-template h4 {
+  font-size: 1em;
+  margin: 1.33em 0;
+  font-weight: bold;
+  line-height: normal;
+  color: #606060;
+  font-family: "Inter UI", sans-serif;
+}
+
+.eq-template .eq-compact {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.eq-template .eq-table-1-container {
+  margin: 20px 0;
+}
+.eq-template .eq-table-1-header th {
+  border: 1px solid var(--border-200);
+  padding: 12px 16px;
+}
+.eq-template .eq-table-1-body td {
+  border: 1px solid var(--border-200);
+  padding: 8px 16px;
+}
+
+.eq-template .eq-table-2-container {
+  margin: 20px 0;
+}
+.eq-template .eq-table-2-row {
+  padding: 12px 16px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background-color: white;
+  border-left: 1px solid var(--border-200);
+  border-right: 1px solid var(--border-200);
+  border-bottom: 1px solid var(--border-200);
+}
+.eq-template .eq-table-2-row.eq-header {
+  background-color: var(--primary-3);
+  color: white;
+}
+.eq-template .eq-table-2-row:first-child {
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+.eq-template .eq-table-2-row:last-child {
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+}
+.eq-template .eq-column-sm {
+  width: 80px;
+}
+.eq-template .eq-column-default {
+  flex: 1;
+}
+.eq-template .eq-column-md {
+  width: 150px;
+}
+.eq-template .eq-column-lg {
+  width: 250px;
+}
+.eq-template .eq-flex-center {
+  display: flex;
+  justify-content: center;
+}
+.eq-template .eq-flex-start {
+  display: flex;
+  justify-content: flex-start;
+}
+.eq-template .eq-flex-end {
+  display: flex;
+  justify-content: flex-end;
+}
+.eq-template .eq-pill-box {
+  background-color: var(--box-blue);
+  color: white;
+  border-radius: 999px;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 4px 8px;
+}
+.eq-template .eq-round-box {
+  background-color: var(--primary-3);
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 8px;
+  padding: 4px 8px;
+}
+.eq-template .eq-button {
+  background-color: var(--primary-3);
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 8px;
+  padding: 4px 8px;
+  cursor: pointer;
+  transition: background-color 0.2s, box-shadow 0.2s;
+}
+.eq-template .eq-button:hover {
+  background-color: var(--primary-2);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .eq-template .eq-column-md {
+    width: 100px;
+  }
+  .eq-template .eq-column-lg {
+    width: 150px;
+  }
+}

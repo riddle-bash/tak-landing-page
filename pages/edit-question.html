@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TAK12 - AI Learning Platform</title>
+    <link rel="stylesheet" href="eq-styles.css" />
+    <link rel="icon" href="/Upload/landing-page/tak12.png" type="image/png" />
+    <script>
+      if (location.hostname === "riddle-bash.github.io") {
+        const base = document.createElement("base");
+        base.href = "/tak-landing-page/";
+        document.head.appendChild(base);
+
+        window.addEventListener("DOMContentLoaded", () => {
+          document.querySelectorAll("img").forEach((img) => {
+            if (img.src.startsWith(location.origin + "/Upload/")) {
+              img.src = img.src.replace(location.origin + "/Upload/", "Upload/");
+            }
+          });
+        });
+      }
+    </script>
+    <meta name="og:image" content="/Upload/landing-page/tak-12.png" />
+  </head>
+  <body class="eq-body">
+    <section class="eq-template eq-table-1">
+      <div class="eq-compact">
+        <table class="eq-table-1-container">
+          <thead class="eq-table-1-header">
+            <tr>
+              <th>Tiêu đề 1</th>
+              <th>Tiêu đề 2</th>
+              <th>Tiêu đề 3</th>
+            </tr>
+          </thead>
+          <tbody class="eq-table-1-body">
+            <tr>
+              <td>Nội dung 1</td>
+              <td>-</td>
+              <td>-</td>
+            </tr>
+            <tr>
+              <td>Nội dung 2</td>
+              <td>-</td>
+              <td>-</td>
+            </tr>
+            <tr>
+              <td>Nội dung 3</td>
+              <td>-</td>
+              <td>-</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="eq-template eq-table-2">
+      <div class="eq-compact">
+        <div class="eq-table-2-container">
+          <div class="eq-table-2-row eq-header">
+            <div class="eq-column-sm">
+              <div class="eq-flex-center">Cột ngắn</div>
+            </div>
+            <div class="eq-column-default">
+              <div class="eq-flex-center">Cột mặc định</div>
+            </div>
+            <div class="eq-column-md">
+              <div class="eq-flex-center">Cột vừa</div>
+            </div>
+            <div class="eq-column-lg">
+              <div class="eq-flex-center">Cột rộng</div>
+            </div>
+          </div>
+          <div class="eq-table-2-row">
+            <div class="eq-column-sm">
+              <div class="eq-flex-center">
+                <div class="eq-pill-box">Câu hỏi 1</div>
+              </div>
+            </div>
+            <div class="eq-column-default">
+              <div class="eq-flex-center">-</div>
+            </div>
+            <div class="eq-column-md">
+              <div class="eq-flex-center">-</div>
+            </div>
+            <div class="eq-column-lg">
+              <div class="eq-flex-center">-</div>
+            </div>
+          </div>
+          <div class="eq-table-2-row">
+            <div class="eq-column-sm">
+              <div class="eq-flex-center">
+                <div class="eq-round-box">Câu hỏi 2</div>
+              </div>
+            </div>
+            <div class="eq-column-default">
+              <div class="eq-flex-center">-</div>
+            </div>
+            <div class="eq-column-md">
+              <div class="eq-flex-center">-</div>
+            </div>
+            <div class="eq-column-lg">
+              <div class="eq-flex-center">-</div>
+            </div>
+          </div>
+          <div class="eq-table-2-row">
+            <div class="eq-column-sm">
+              <div class="eq-flex-center"><a href="#" class="eq-button">Câu hỏi 3</a></div>
+            </div>
+            <div class="eq-column-default">
+              <div class="eq-flex-center">-</div>
+            </div>
+            <div class="eq-column-md">
+              <div class="eq-flex-center">-</div>
+            </div>
+            <div class="eq-column-lg">
+              <div class="eq-flex-center">-</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
